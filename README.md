@@ -10,29 +10,39 @@ Silent-Wing: DRL-Enabled Resource Coordination for Covertness-Aware and Energy-E
 This project is a research project based on Deep Reinforcement Learning (DRL), aiming to solve the resource coordination problem in UAV-Aided IoT scenarios, with a special focus on balancing covert communication and energy efficiency. It implements a DRL-based framework to explore and validate the feasibility and effectiveness of UAV trajectory optimization in complex communication environments.
 
 ### Main Features
-- **TD3-based Trajectory Optimization**: The core of the project uses the Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithm, an advanced DRL algorithm suitable for continuous action spaces, to optimize the UAV's flight trajectory.
-- **Complex Environment Modeling**: The project constructs a simulation environment that includes dynamically generated buildings, legitimate communication nodes, and potential eavesdroppers (Wardens). This environment simulates realistic urban or complex terrains, providing near-real-world challenges for UAV path planning.
-- **Trade-off between Covert Communication and Transmission Efficiency**: The project balances two core objectives through a carefully designed reward function:
+- **TD3-based Trajectory Optimization**:
+  The core of the project uses the Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithm, an advanced DRL algorithm suitable for continuous action spaces, to optimize the UAV's flight trajectory.
+- **Complex Environment Modeling**:
+  The project constructs a simulation environment that includes dynamically generated buildings, legitimate communication nodes, and potential eavesdroppers (Wardens). This environment simulates realistic urban or complex terrains, providing near-real-world challenges for UAV path planning.
+- **Trade-off between Covert Communication and Transmission Efficiency**:
+  The project balances two core objectives through a carefully designed reward function:
     - **Covertness**: Maximizing the Detection Error Probability (DEP) to make it difficult for the UAV to be detected by eavesdroppers while performing its mission.
     - **Transmission Efficiency**: Maximizing the data transmission rate by optimizing the channel quality between the UAV and legitimate ground nodes.
-- **Advanced Reinforcement Learning Techniques**: To improve learning efficiency and algorithm performance, the project integrates several advanced techniques:
+- **Advanced Reinforcement Learning Techniques**:
+  To improve learning efficiency and algorithm performance, the project integrates several advanced techniques:
     - **Prioritized Experience Replay (PER)**: Accelerates the learning process by prioritizing the sampling of important experience data.
     - **Multi-step Learning**: More accurately evaluates the long-term value of current decisions by considering rewards from multiple future steps.
-- **Detailed Visualization and Logging**: The project provides rich visualization tools that can dynamically display the UAV's training process, flight trajectory, environmental layout, and reward function heatmap. A detailed logging system records key performance indicators during training and testing, such as rewards, DEP, and throughput, and can generate performance curve graphs for easy analysis and evaluation.
+- **Detailed Visualization and Logging**:
+  The project provides rich visualization tools that can dynamically display the UAV's training process, flight trajectory, environmental layout, and reward function heatmap. A detailed logging system records key performance indicators during training and testing, such as rewards, DEP, and throughput, and can generate performance curve graphs for easy analysis and evaluation.
 
 ## 项目简介
 本项目是一个基于深度强化学习（DRL）的研究项目，旨在解决无人机辅助物联网（UAV-Aided IoT）场景中的资源协调问题，特别是在隐蔽通信和能源效率之间寻求平衡。项目实现了一个基于深度强化学习的框架，用于探索和验证在复杂通信环境中无人机轨迹优化的可行性与有效性。
 
 ### 主要功能
-- **基于TD3的轨迹优化**: 项目核心采用 Twin Delayed Deep Deterministic Policy Gradient (TD3) 算法，这是一个先进的DRL算法，适用于连续动作空间，用于优化无人机的飞行轨迹。
-- **复杂的环境建模**: 项目构建了一个包含动态生成建筑物、合法通信节点和潜在窃听者（Warden）的仿真环境。该环境能够模拟真实的城市或复杂地形，为无人机路径规划提供接近现实的挑战。
-- **隐蔽通信与传输效率的权衡**: 项目通过精心设计的奖励函数来平衡两个核心目标：
+- **基于TD3的轨迹优化**:
+  项目核心采用 Twin Delayed Deep Deterministic Policy Gradient (TD3) 算法，这是一个先进的DRL算法，适用于连续动作空间，用于优化无人机的飞行轨迹。
+- **复杂的环境建模**:
+  项目构建了一个包含动态生成建筑物、合法通信节点和潜在窃听者（Warden）的仿真环境。该环境能够模拟真实的城市或复杂地形，为无人机路径规划提供接近现实的挑战。
+- **隐蔽通信与传输效率的权衡**:
+  项目通过精心设计的奖励函数来平衡两个核心目标：
     - **隐蔽性**: 通过最大化检测误差概率（DEP），使无人机在执行任务时难以被窃听者发现。
     - **传输效率**: 通过优化无人机与地面合法节点之间的信道质量，最大化数据传输速率。
-- **先进的强化学习技术**: 为了提升学习效率和算法性能，项目中集成了多种先进技术：
+- **先进的强化学习技术**:
+  为了提升学习效率和算法性能，项目中集成了多种先进技术：
     - **优先经验回放 (PER)**: 通过优先采样重要的经验数据，加速学习过程。
     - **多步学习 (Multi-step Learning)**: 通过考虑未来多步的奖励，更准确地评估当前决策的长期价值。
-- **详细的可视化与日志记录**: 项目提供了丰富的可视化工具，能够动态展示无人机的训练过程、飞行轨迹、环境布局以及奖励函数的热力图。同时，详细的日志系统记录了训练和测试过程中的关键性能指标，如奖励、DEP、吞吐量等，并能生成性能曲线图，便于分析和评估算法效果。
+- **详细的可视化与日志记录**:
+  项目提供了丰富的可视化工具，能够动态展示无人机的训练过程、飞行轨迹、环境布局以及奖励函数的热力图。同时，详细的日志系统记录了训练和测试过程中的关键性能指标，如奖励、DEP、吞吐量等，并能生成性能曲线图，便于分析和评估算法效果。
 
 ---
 
