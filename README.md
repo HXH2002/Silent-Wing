@@ -1,8 +1,6 @@
-## Project Name
-Silent-Wing: DRL-Enabled Resource Coordination for Covertness-Aware and Energy-Efficient UAV-Aided IoT
+## Silent-Wing: DRL-Enabled Resource Coordination for Covertness-Aware and Energy-Efficient UAV-Aided IoT
 
-## 项目名称
-寂静之翼：基于强化学习的资源协调，在无人机辅助物联网中兼顾隐蔽通信和能效
+## 寂静之翼：基于强化学习的资源协调，在无人机辅助物联网中兼顾隐蔽通信和能效
 
 ---
 
