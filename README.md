@@ -1,6 +1,6 @@
 ## Silent-Wing: DRL-Enabled Resource Coordination for Covertness-Aware and Energy-Efficient UAV-Aided IoT
 
-## 寂静之翼：基于强化学习的资源协调，在无人机辅助物联网中兼顾隐蔽通信和能效
+## 寂静之翼：一种基于强化学习的资源协调方法，用于在无人机辅助物联网中兼顾隐蔽通信和能效
 
 ---
 
